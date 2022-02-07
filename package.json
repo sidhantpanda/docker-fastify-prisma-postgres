@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
+    "dev": "ts-node src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +20,10 @@
   "homepage": "https://github.com/sidhantpanda/docker-fastify-prisma-postgres#readme",
   "devDependencies": {
     "@types/node": "^17.0.16",
+    "ts-node": "^10.5.0",
     "typescript": "^4.5.5"
+  },
+  "dependencies": {
+    "fastify": "^3.27.1"
   }
 }
