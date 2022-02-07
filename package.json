@@ -4,6 +4,7 @@
   "description": "Dockerized Fastify application + Postgres with Prisma",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/sidhantpanda/docker-fastify-prisma-postgres/issues"
   },
-  "homepage": "https://github.com/sidhantpanda/docker-fastify-prisma-postgres#readme"
+  "homepage": "https://github.com/sidhantpanda/docker-fastify-prisma-postgres#readme",
+  "devDependencies": {
+    "@types/node": "^17.0.16",
+    "typescript": "^4.5.5"
+  }
 }
